@@ -9,6 +9,7 @@ public class PlaceHolder {
     }
 
     public String getLabel() {
+        // just a sample comment
         return label;
     }
 
