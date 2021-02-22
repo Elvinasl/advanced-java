@@ -7,6 +7,10 @@ public class Button {
     public Button() {
     }
 
+    public String trigger() {
+        return getLabel().concat(" is being clicked! Its ID: ") + getId();
+    }
+
     public Long getId() {
         return id;
     }

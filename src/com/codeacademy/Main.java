@@ -6,9 +6,10 @@ public class Main {
         PlaceHolder placeHolder = new PlaceHolder("Kazkas");
 
         Button button = new Button();
-        button.setId(1L);
+        button.setId(99L);
         button.setLabel("Click me!");
 
         System.out.println(placeHolder.getLabel());
+        System.out.println(button.trigger());
     }
 }
