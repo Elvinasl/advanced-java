@@ -3,6 +3,8 @@ package com.codeacademy;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("HAHA!");
+        PlaceHolder placeHolder = new PlaceHolder("Kazkas");
+
+        System.out.println(placeHolder.getLabel());
     }
 }
