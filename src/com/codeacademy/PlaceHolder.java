@@ -13,6 +13,10 @@ public class PlaceHolder {
         return label;
     }
 
+    public void setLabelToNull() {
+        label = null;
+    }
+
     public void setLabel(String label) {
         this.label = label;
     }
