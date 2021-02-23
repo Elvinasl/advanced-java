@@ -6,5 +6,6 @@ public class Main {
         PlaceHolder placeHolder = new PlaceHolder("Kazkas");
 
         System.out.println(placeHolder.getLabel() + "a");
+        System.out.println("just some text");
     }
 }
