@@ -1,23 +1,19 @@
 package com.codeacademy;
 
+
+import com.codeacademy.exception.AccountException;
+
 public class Main {
 
     public static void main(String[] args) {
-        PlaceHolder placeHolder = new PlaceHolder("Kazkas");
-
-        placeHolder.getLabel();
-
-        String result = placeHolder.getLabel();
-
-        if (result != null) {
-            System.out.println("rezultatas yra ne null");
+        Account a = new Account();
+        try {
+            a.withdraw(90);
+            System.out.println("Pinigai nuskaityti");
+            a.withdraw(50);
+            System.out.println("Pinigai nuskaityti"); // won't be reached!
+        } catch (AccountException e) {
+            System.out.println(e.getMessage() + " balansas: " + e.getBalance());
         }
-
-        placeHolder.setLabelToNull();
-
-        if (placeHolder.getLabel() == null) {
-            System.out.println("rezultatas yra null");
-        }
-
     }
 }
