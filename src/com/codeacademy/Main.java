@@ -1,19 +1,20 @@
 package com.codeacademy;
 
 
-import com.codeacademy.exception.AccountException;
+import com.codeacademy.lecture11.nullExample.Adresas;
+import com.codeacademy.lecture11.nullExample.Miestas;
+
+import static com.codeacademy.lecture11.nullExample.NullService.gautiMiestoPavadinima;
 
 public class Main {
 
     public static void main(String[] args) {
-        Account a = new Account();
-        try {
-            a.withdraw(90);
-            System.out.println("Pinigai nuskaityti");
-            a.withdraw(50);
-            System.out.println("Pinigai nuskaityti"); // won't be reached!
-        } catch (AccountException e) {
-            System.out.println(e.getMessage() + " balansas: " + e.getBalance());
-        }
-    }
+        // Null example
+        Adresas namuAdresas = new Adresas(new Miestas("Vilnius"));
+        System.out.println(gautiMiestoPavadinima(namuAdresas));
+
+
+     }
+
+
 }
