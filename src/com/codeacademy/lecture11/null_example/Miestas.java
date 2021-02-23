@@ -1,4 +1,4 @@
-package com.codeacademy.lecture11.nullExample;
+package com.codeacademy.lecture11.null_example;
 
 public class Miestas {
     private String pavadinimas;
