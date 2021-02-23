@@ -1,4 +1,8 @@
-package com.codeacademy.lecture11.exceptionExample;
+package com.codeacademy.lecture11.exception_example;
+
+import com.codeacademy.lecture11.exception_example.exceptions.LaikinaKlaida;
+import com.codeacademy.lecture11.exception_example.exceptions.SvarbiKlaida;
+import com.codeacademy.lecture11.exception_example.exceptions.VaziuoklesIsskleidimoKlaida;
 
 import java.util.Random;
 
@@ -13,13 +17,13 @@ public class Lektuvas {
         } catch (SvarbiKlaida e) {
             System.out.println("ERROR: nepavyko isskleisti vaziuokles. " + e.getPriezastis() + "Svarbumas: svarbu");
         }  catch (VaziuoklesIsskleidimoKlaida e) {
-            System.out.println("ERROR: nepavyko isskleisti vaziuokles. " + "Priezastis: " + e.getPriezastis() + ". Svarbumas: neznoma");
+            System.out.println("ERROR: nepavyko isskleisti vaziuokles. " + "Priezastis: " + e.getPriezastis() + ". Svarbumas: nezinoma");
         }
     }
 
     void vaziuokle() throws VaziuoklesIsskleidimoKlaida {
         Random rand = new Random();
-        int x = rand.nextInt(10);
+        int x = rand.nextInt(4);
         switch (x) {
             case 0: throw new SvarbiKlaida("Neatsidare durys");
             case 1: throw new SvarbiKlaida("Nenusileido ratas");

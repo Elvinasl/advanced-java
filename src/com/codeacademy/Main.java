@@ -1,10 +1,11 @@
 package com.codeacademy;
 
 
-import com.codeacademy.lecture11.nullExample.Adresas;
-import com.codeacademy.lecture11.nullExample.Miestas;
+import com.codeacademy.lecture11.exception_example.Lektuvas;
+import com.codeacademy.lecture11.null_example.Adresas;
+import com.codeacademy.lecture11.null_example.Miestas;
 
-import static com.codeacademy.lecture11.nullExample.NullService.gautiMiestoPavadinima;
+import static com.codeacademy.lecture11.null_example.NullService.gautiMiestoPavadinima;
 
 public class Main {
 
@@ -13,7 +14,8 @@ public class Main {
         Adresas namuAdresas = new Adresas(new Miestas("Vilnius"));
         System.out.println(gautiMiestoPavadinima(namuAdresas));
 
-
+        Lektuvas lektuvas = new Lektuvas();
+        lektuvas.isskleistiVaziuokle();
      }
 
 

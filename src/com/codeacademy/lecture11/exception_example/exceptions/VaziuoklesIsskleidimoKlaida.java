@@ -1,6 +1,6 @@
-package com.codeacademy.lecture11.exceptionExample;
+package com.codeacademy.lecture11.exception_example.exceptions;
 
-class VaziuoklesIsskleidimoKlaida extends Exception {
+public class VaziuoklesIsskleidimoKlaida extends Exception {
 
     private String priezastis;
 
