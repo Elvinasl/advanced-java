@@ -1,8 +1,10 @@
 package com.codeacademy.maven.mvn_example_1.src.main.java.eu.codeacademy.maven;
 
-import eu.codeacademy.maven.service.ManoKlase;
-import eu.codeacademy.maven.service.ManoKlaseImpl;
-import eu.codeacademy.maven.service.ManoKlaseV2Impl;
+
+
+import com.codeacademy.maven.mvn_example_1.src.main.java.eu.codeacademy.maven.service.ManoKlase;
+import com.codeacademy.maven.mvn_example_1.src.main.java.eu.codeacademy.maven.service.ManoKlaseImpl;
+import com.codeacademy.maven.mvn_example_1.src.main.java.eu.codeacademy.maven.service.ManoKlaseV2Impl;
 
 import java.io.IOException;
 
