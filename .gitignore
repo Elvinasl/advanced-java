@@ -1,3 +1,40 @@
-.idea/
-advanced-java-2021.iml
+Thumbs.db
+.DS_Store
+
+.gradle/
+gradle/
 out/
+classes/
+gradle.properties
+*.orig
+.mvn
+build/
+target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Logs ###
+logs/
