@@ -7,6 +7,9 @@ import service.PriceService;
 import java.math.BigDecimal;
 import java.util.List;
 
+/**
+ * Ticket representation
+ */
 public class Ticket implements Priceble {
 
     private Visitor visitor;
@@ -17,11 +20,17 @@ public class Ticket implements Priceble {
         this.priceService = new PriceService();
     }
 
+    /**
+     * Total prive of the ticket
+     */
     @Override
     public BigDecimal getPrice() {
         return priceService.getTotalPrice(visitor);
     }
 
+    /**
+     * Gets the attractions that the visitor is about to visit
+     */
     public List<Attraction> getVisitorAttractions() {
         return visitor.getAttractions();
     }

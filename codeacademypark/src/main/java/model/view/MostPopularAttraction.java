@@ -1,5 +1,8 @@
 package model.view;
 
+/**
+ * View to represent most popular attraction
+ */
 public class MostPopularAttraction {
     private String name;
     private int visits;

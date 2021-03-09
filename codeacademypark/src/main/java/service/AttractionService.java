@@ -10,6 +10,9 @@ import java.util.List;
 
 import static util.Constants.ADULT_AGE;
 
+/**
+ * Service which is responsible for managing all attraction park attractions
+ */
 public class AttractionService {
 
     private Attraction backerJumbo;
@@ -22,6 +25,9 @@ public class AttractionService {
         this.kobolter = new Kobolter();
     }
 
+    /**
+     * @return List of all available attractions
+     */
     public List<Attraction> getAllAttractions() {
         List<Attraction> attractions = new ArrayList<>();
         attractions.add(backerJumbo);
@@ -30,6 +36,9 @@ public class AttractionService {
         return attractions;
     }
 
+    /**
+     * @return List of attractions that are suitable for child
+     */
     public List<Attraction> getAllChildAttractions() {
         List<Attraction> childAttractions = new ArrayList<>();
         for (Attraction attraction : getAllAttractions()) {

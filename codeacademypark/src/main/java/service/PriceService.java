@@ -8,12 +8,18 @@ import java.util.List;
 
 import static util.Constants.*;
 
+/**
+ * A Service that is responsible to for price calculations
+ */
 public class PriceService {
 
     public BigDecimal getTotalPrice(Visitor visitor) {
         return getVisitorPrice(visitor).multiply(BigDecimal.valueOf(visitor.getAttractions().size()));
     }
 
+    /**
+     * Calculates the revenue of all sold tickets
+     */
     public BigDecimal getTotalRevenue(List<Ticket> soldTickets) {
         BigDecimal total = BigDecimal.ZERO;
         for (Ticket ticket : soldTickets) {

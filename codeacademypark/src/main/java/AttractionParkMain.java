@@ -29,10 +29,12 @@ public class AttractionParkMain {
         attractionPark.sellTicket(adult2);
         attractionPark.sellTicket(child);
 
+        System.out.println("------------------------");
         System.out.println("Most popular attractions: " + attractionPark.getMostPopularAttraction());
         System.out.println("Total visitors: " + attractionPark.getTotalVisitorsCount());
-        System.out.println("Average price per ticket: " + attractionPark.getAvaregeTicketPrice());
-        System.out.println("Total ravenue: " + attractionPark.getTotalRavenue());
+        System.out.println("Average price per ticket: " + attractionPark.getAverageTicketPrice());
+        System.out.println("Total ravenue: " + attractionPark.getTotalRevenue());
+        System.out.println("------------------------");
 
     }
 }

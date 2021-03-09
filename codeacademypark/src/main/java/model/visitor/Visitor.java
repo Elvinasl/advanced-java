@@ -1,9 +1,14 @@
 package model.visitor;
 
+import exception.InvalidAgeException;
 import model.attraction.Attraction;
 
 import java.util.List;
 
+
+/**
+ * Abstract visitor that has an age and attractions that he/she want to visit
+ */
 public abstract class Visitor implements Ageble {
 
     private int age;
