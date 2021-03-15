@@ -1,4 +1,4 @@
-package main.java.com.codeacademy.generic.example_1.model;
+package com.codeacademy.generic.example_1.model;
 
 /**
  * E - Element (Collection data types, i.e. List<Object>, Set<Person>

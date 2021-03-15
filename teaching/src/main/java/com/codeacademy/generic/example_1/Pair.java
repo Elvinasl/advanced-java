@@ -1,4 +1,4 @@
-package main.java.com.codeacademy.generic.example_1;
+package com.codeacademy.generic.example_1;
 
 public interface Pair<K, V> extends GlobalPair {
 

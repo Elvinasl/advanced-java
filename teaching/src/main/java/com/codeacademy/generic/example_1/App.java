@@ -1,6 +1,7 @@
-package main.java.com.codeacademy.generic.example_1;
+package com.codeacademy.generic.example_1;
 
-import main.java.com.codeacademy.generic.example_1.model.Box;
+
+import com.codeacademy.generic.example_1.model.Box;
 
 import java.util.Date;
 
