@@ -1,6 +1,5 @@
 package model.visitor;
 
-import exception.InvalidAgeException;
 import model.attraction.Attraction;
 
 import java.util.List;
