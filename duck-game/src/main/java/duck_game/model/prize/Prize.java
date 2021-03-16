@@ -4,6 +4,9 @@ import duck_game.model.Namable;
 
 import java.math.BigDecimal;
 
+/**
+ * Abstraction of a price
+ */
 public abstract class Prize implements Namable, Valuable {
 
     private String name;

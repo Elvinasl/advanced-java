@@ -1,5 +1,8 @@
 package duck_game.model.duck;
 
+/**
+ * A duck representation in the game
+ */
 public class Duck implements Goldable, Pointable {
 
     private boolean isGolden;
