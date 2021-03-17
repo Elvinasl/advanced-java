@@ -4,19 +4,30 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>groupId</groupId>
+    <groupId>lt.codeacademy</groupId>
     <artifactId>advanced-java-2021</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>duck-game</module>
-    </modules>
 
     <properties>
         <maven.compiler.source>1.11</maven.compiler.source>
         <maven.compiler.target>1.11</maven.compiler.target>
     </properties>
 
-<!--  TODO: add maven dependency of an inner project  -->
+    <modules>
+        <module>codeacademypack</module>
+        <module>session-examples</module>
+        <module>duck-game</module>
+    </modules>
+
+    <!--  TODO: add maven dependency of an inner project  -->
+    <dependencies>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.7.0</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
 </project>
