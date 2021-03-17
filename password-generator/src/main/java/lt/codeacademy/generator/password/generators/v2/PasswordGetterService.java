@@ -1,6 +1,6 @@
 package lt.codeacademy.generator.password.generators.v2;
 
-public final class PasswordGetterService<T extends Generator> implements PasswordGeneratorServiceV2<T> {
+public final class PasswordGetterService<T extends Generator> implements PasswordGeneratorV2<T> {
 
     private final T generator;
 

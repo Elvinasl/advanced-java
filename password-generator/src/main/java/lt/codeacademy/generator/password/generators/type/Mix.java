@@ -1,4 +1,4 @@
-package lt.codeacademy.generator.password.generators.v1.type;
+package lt.codeacademy.generator.password.generators.type;
 
 import static java.util.UUID.randomUUID;
 

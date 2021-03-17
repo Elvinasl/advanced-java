@@ -1,6 +1,6 @@
 package lt.codeacademy.generator.password.generators.v2;
 
-import lt.codeacademy.generator.password.generators.v1.type.Mix;
+import lt.codeacademy.generator.password.generators.type.Mix;
 
 public final class MixPasswordGeneratorV2 implements Generator {
 
