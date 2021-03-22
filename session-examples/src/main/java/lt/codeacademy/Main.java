@@ -2,12 +2,18 @@ package lt.codeacademy;
 
 
 import lt.codeacademy.comparator_example.ComparatorStarter;
-import lt.codeacademy.lambda.LambdaStarter;
+import lt.codeacademy.func_programming.FuncProgrammingStarter;
+import lt.codeacademy.lambda.LambdaStarterExercise;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        LambdaStarter.start();
+        ComparatorStarter.start();
+
+        LambdaStarterExercise.start();
+
+        FuncProgrammingStarter.start();
+
     }
 }
