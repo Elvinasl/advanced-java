@@ -1,4 +1,4 @@
-package lt.codeacademy.func_programming;
+package lt.codeacademy.func_programming.basic;
 
 import java.util.HashMap;
 import java.util.Map;
