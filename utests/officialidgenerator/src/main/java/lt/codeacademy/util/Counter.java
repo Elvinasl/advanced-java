@@ -1,4 +1,4 @@
-package util;
+package lt.codeacademy.util;
 
 public final class Counter {
 

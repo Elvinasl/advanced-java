@@ -1,6 +1,6 @@
-package service;
+package lt.codeacademy.service;
 
-import model.Person;
+import lt.codeacademy.model.Person;
 
 public interface OfficialIdProvider {
 

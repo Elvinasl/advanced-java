@@ -1,6 +1,6 @@
-package model;
+package lt.codeacademy.model;
 
-import model.enums.Gender;
+import lt.codeacademy.model.enums.Gender;
 
 import java.time.LocalDate;
 
