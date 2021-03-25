@@ -20,7 +20,7 @@ class OfficialIdProviderTest {
 
     @BeforeEach
     void init() {
-        Counter.nustatytiNumatytajareiksme();
+        Counter.setDefaultCounterNumberValue();
     }
 
     @Test

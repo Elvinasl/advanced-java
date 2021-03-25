@@ -2,9 +2,9 @@ package lt.codeacademy.util;
 
 public final class Counter {
 
-    public static final String PRADINE = "000";
+    public static final String DEFAULT_COUNTER_NUMBER = "000";
 
-    private static String number = PRADINE;
+    private static String number = DEFAULT_COUNTER_NUMBER;
 
     private Counter() {
     }
@@ -14,7 +14,7 @@ public final class Counter {
             int foo = Integer.parseInt(number);
             number = String.format("%1$03d", foo + 1);
             if (foo == 999) {
-                nustatytiNumatytajareiksme();
+                setDefaultCounterNumberValue();
             } else {
                 number = number.substring(number.length() - 3);
             }
@@ -23,8 +23,8 @@ public final class Counter {
         }
     }
 
-    public static void nustatytiNumatytajareiksme() {
-        number = PRADINE;
+    public static void setDefaultCounterNumberValue() {
+        number = DEFAULT_COUNTER_NUMBER;
     }
 
     public static String getNumber() {
