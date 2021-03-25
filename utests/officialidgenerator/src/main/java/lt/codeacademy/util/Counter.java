@@ -23,7 +23,7 @@ public final class Counter {
         }
     }
 
-    private static void nustatytiNumatytajareiksme() {
+    public static void nustatytiNumatytajareiksme() {
         number = PRADINE;
     }
 
