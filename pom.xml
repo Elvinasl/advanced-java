@@ -18,6 +18,7 @@
         <module>codeacademypack</module>
         <module>session-examples</module>
         <module>duck-game</module>
+        <module>password-generator</module>
     </modules>
 
     <!--  TODO: add maven dependency of an inner project  -->
