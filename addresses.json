@@ -1,0 +1,9 @@
+[ {
+  "country" : "LIETUVA",
+  "city" : "Vilnius",
+  "currentHouseNumber" : "33"
+}, {
+  "country" : "SVEDIJA",
+  "city" : "Stockholm",
+  "currentHouseNumber" : "18"
+} ]
